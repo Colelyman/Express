@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="articles container">
+
+      <div class="article">
+        <div class="item row">
+          <div class="col-xs-3">
+            <p class="source">Utah City Weather</p>
+          </div>
+          <div class="col-xs-6">
+            <p class="title">Click Here for Weather</p>
+          </div>
+          <div class="col-xs-3">
+            <p class="pubdate">Sep 22</p>
+          </div>
+        </div>
+        <div class="description row">
+          <div class="col-xs-3">&nbsp;</div>
+          <div class="col-xs-6">
+            <h1>Utah City Weather</h1>
+            <form>Enter a Utah City: <input type="text" id="cityfield" value=""><br />
+            Suggestion: <span id="txtHint">Empty</span>
+            <input id="button" type="submit" value="Submit">
+            </form>
+            <p>City</p>
+            <textarea id="dispcity">No City</textarea>
+            <p>Current Weather</p>
+            <div id="weather">No weather</div>
+          </div>
+          <div class="col-xs-3">&nbsp;</div>
+        </div>
+      </div>
+
+
+      <script src="script.js"></script>
+
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </body>
+</html>
